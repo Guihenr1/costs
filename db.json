@@ -12,34 +12,6 @@
       "id": 1
     },
     {
-      "name": "Marcaocao",
-      "budget": "34338",
-      "cost": 0,
-      "service": [],
-      "id": 2
-    },
-    {
-      "name": "sdfd",
-      "budget": "234",
-      "cost": 0,
-      "service": [],
-      "id": 3
-    },
-    {
-      "name": "dfgd",
-      "budget": "435",
-      "cost": 0,
-      "service": [],
-      "id": 4
-    },
-    {
-      "name": "dfgd",
-      "budget": "4354",
-      "cost": 0,
-      "service": [],
-      "id": 5
-    },
-    {
       "name": "sdfdsf",
       "budget": "324234",
       "category": {
@@ -49,6 +21,39 @@
       "cost": 0,
       "service": [],
       "id": 6
+    },
+    {
+      "category": {
+        "id": "1",
+        "name": "Infrastructure"
+      },
+      "name": "Roteador",
+      "budget": "234324",
+      "cost": 0,
+      "service": [],
+      "id": 7
+    },
+    {
+      "category": {
+        "id": "2",
+        "name": "Development"
+      },
+      "name": "Contratar",
+      "budget": "5445",
+      "cost": 0,
+      "service": [],
+      "id": 8
+    },
+    {
+      "name": "Terminar curso",
+      "budget": "2343",
+      "category": {
+        "id": "2",
+        "name": "Development"
+      },
+      "cost": 0,
+      "service": [],
+      "id": 9
     }
   ],
   "categories": [
