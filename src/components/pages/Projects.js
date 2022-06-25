@@ -5,9 +5,11 @@ import Container from "../layout/Container";
 import LinkButton from "../layout/LinkButton";
 import { useState, useEffect } from "react";
 import ProjectCard from "../project/ProjectCard";
+import Loading from "../layout/Loading";
 
 function Projects() {
   const [projects, setProjects] = useState([]);
+  const [removeLoading, setRemoveLoading] = useState(false);
 
   const location = useLocation();
   let message = "";
@@ -24,10 +26,13 @@ function Projects() {
     })
       .then((resp) => resp.json())
       .then((data) => {
-        console.log(data);
         setProjects(data);
+        setRemoveLoading(true);
       })
-      .catch((err) => console.log(err));
+      .catch((err) => {
+        console.log(err);
+        setRemoveLoading(true);
+      });
   }, []);
 
   return (
@@ -48,6 +53,10 @@ function Projects() {
               key={project.id}
             />
           ))}
+        {!removeLoading && <Loading />}
+        {removeLoading && projects.length === 0 && (
+          <p>There are no registered projects</p>
+        )}
       </Container>
     </div>
   );
