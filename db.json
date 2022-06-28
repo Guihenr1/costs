@@ -1,17 +1,6 @@
 {
   "projects": [
     {
-      "name": "Se mudar",
-      "budget": "4555",
-      "category": {
-        "id": "3",
-        "name": "Design"
-      },
-      "cost": 0,
-      "service": [],
-      "id": 1
-    },
-    {
       "name": "sdfdsf",
       "budget": "324234",
       "category": {
@@ -21,17 +10,6 @@
       "cost": 0,
       "service": [],
       "id": 6
-    },
-    {
-      "category": {
-        "id": "1",
-        "name": "Infrastructure"
-      },
-      "name": "Roteador",
-      "budget": "234324",
-      "cost": 0,
-      "service": [],
-      "id": 7
     },
     {
       "category": {
