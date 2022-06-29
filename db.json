@@ -1,11 +1,11 @@
 {
   "projects": [
     {
-      "name": "sdfdsf",
-      "budget": "324234",
+      "name": "Limpar a casa 2",
+      "budget": "14",
       "category": {
-        "id": "3",
-        "name": "Design"
+        "id": "1",
+        "name": "Infrastructure"
       },
       "cost": 0,
       "service": [],
