@@ -1,37 +1,39 @@
 {
   "projects": [
     {
-      "name": "Limpar a casa 2",
-      "budget": "14",
+      "name": "Arrumar o carro",
+      "budget": "5000",
+      "category": {
+        "id": "3",
+        "name": "Design"
+      },
+      "cost": 51,
+      "services": [
+        {
+          "name": "Pintar",
+          "cost": "49",
+          "description": "Pintar de preto",
+          "id": "996b25ad-53cc-459b-b2ff-ef35b556a137"
+        },
+        {
+          "name": "Teste",
+          "cost": "2",
+          "description": "dsdf",
+          "id": "46b54c5f-af9d-47a5-89e3-7a79bf88675a"
+        }
+      ],
+      "id": 1
+    },
+    {
+      "name": "Com serviço",
+      "budget": "234324",
       "category": {
         "id": "1",
         "name": "Infrastructure"
       },
       "cost": 0,
-      "service": [],
-      "id": 6
-    },
-    {
-      "category": {
-        "id": "2",
-        "name": "Development"
-      },
-      "name": "Contratar",
-      "budget": "5445",
-      "cost": 0,
-      "service": [],
-      "id": 8
-    },
-    {
-      "name": "Terminar curso",
-      "budget": "2343",
-      "category": {
-        "id": "2",
-        "name": "Development"
-      },
-      "cost": 0,
-      "service": [],
-      "id": 9
+      "services": [],
+      "id": 2
     }
   ],
   "categories": [
